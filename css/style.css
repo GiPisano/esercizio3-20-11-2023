@@ -84,3 +84,19 @@ th{
 .tab3{
     width: 50%;
 }
+
+/* footer */
+footer{
+    padding: 10px;
+}
+
+.monitor, .graph{
+    position: relative;
+}
+
+.text-monitor, .text-graph{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+}
