@@ -5,9 +5,9 @@
 /* header e logo */
 header{
     background-image: url(../img/pattern.png);
-    background-color: rgb(7, 140, 242);
+    background-color: rgb(78, 160, 255);
     background-position: center;
-    height: 130px;
+    height: 120px;
     position: relative;
 }
 
@@ -22,7 +22,7 @@ header{
 /* main */
 
 .titolo{
-    font-size: 60px;
+    font-size: 50px;
 }
 
 main{
@@ -40,7 +40,7 @@ main{
 
 
 a{
-    color: rgb(7, 140, 242);
+    color: rgb(78, 160, 255);
     text-decoration: none;
 }
 
@@ -50,4 +50,37 @@ figcaption{
 
 span{
     background-color: yellow;
+}
+
+ul{
+    padding:15px ;
+}
+
+/* tabella */
+
+thead{
+    background-color: rgb(78, 160, 255);
+    color: white;
+    text-align: left;
+}
+
+table{
+    width: 100%;
+    border-spacing: 0;
+}
+
+th{
+    text-align: left;
+}
+
+.blue{
+    background-color: rgb(178, 228, 242);
+}
+
+.tab1{
+    width: 25%;
+}
+
+.tab3{
+    width: 50%;
 }
