@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+}
+
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* header e logo */
+header{
+    background-image: url(../img/pattern.png);
+    background-color: rgb(78, 160, 255);
+    background-position: center;
+    height: 120px;
+    position: relative;
+}
+
+.img-logo{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 10px;
+    width: 250px;
+}
+
+/* main */
+
+.titolo{
+    font-size: 50px;
+}
+
+main{
+    padding: 10px;
+}
+
+.margin{
+ margin-top: 15px;
+ margin-bottom: 15px;
+}
+
+.gray{
+    color: gray;
+}
+
+
+a{
+    color: rgb(78, 160, 255);
+    text-decoration: none;
+}
+
+figcaption{
+    font-size: 10px;
+}
+
+span{
+    background-color: yellow;
+}
+
+ul{
+    padding:15px ;
+}
+
+/* tabella */
+
+thead{
+    background-color: rgb(78, 160, 255);
+    color: white;
+    text-align: left;
+}
+
+table{
+    width: 100%;
+    border-spacing: 0;
+}
+
+th{
+    text-align: left;
+}
+
+.blue{
+    background-color: rgb(178, 228, 242);
+}
+
+.tab1{
+    width: 25%;
+}
+
+.tab3{
+    width: 50%;
+}
+
+/* footer */
+footer{
+    padding: 10px;
+}
+
+.monitor, .graph{
+    position: relative;
+}
+
+.text-monitor, .text-graph{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+}
